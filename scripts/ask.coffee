@@ -1,3 +1,3 @@
 module.exports = (robot) ->
-    robot.respond /./ig, (res) ->
+    robot.respond /hello/i, (res) ->
         res.send "default response"
