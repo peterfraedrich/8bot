@@ -29,7 +29,7 @@ module.exports = (robot) ->
             "WAT.",
             "Yassssss",
             "bender image WTF",
-            "Why do you keep asking me questions? I'm just a bunch of 1's and 0's living in a Docker container somewhere. Shouldn't you be making these choices for yourslef?",
+            "Why do you keep asking me questions? I'm just a bunch of 1's and 0's living in a Docker container somewhere. Shouldn't you be making these choices for yourself?",
             "Uh, I don't know. You're the adult here.",
             "I need an adult. No, not you, an....adult-er adult.",
             "what is this i dont even",
