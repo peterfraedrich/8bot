@@ -34,7 +34,9 @@ module.exports = (robot) ->
             "I need an adult. No, not you, an....adult-er adult.",
             "what is this i dont even",
             "I am 12, what is this?",
-            "ALL OF THE THINGS!"
+            "ALL OF THE THINGS!",
+            "U wot m8? I swear on me mum!",
+            "Piss afffff."
         ]
         random = responses[Math.floor(Math.random() * responses.length)]
         res.send random
