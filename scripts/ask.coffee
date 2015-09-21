@@ -22,10 +22,22 @@ module.exports = (robot) ->
             "I'm sorry, Dave, I cannot answer that question.",
             "Aw hell nah.",
             "No idea, but personally I blame Canada.",
-            ""
+            "[cricket cricket]",
+            "I'm offended by what you are insinuating and I'm reporting you to HR.",
+            "Shut up, Nick.",
+            "Yup.",
+            "WAT.",
+            "Yassssss",
+            "bender image WTF",
+            "Why do you keep asking me questions? I'm just a bunch of 1's and 0's living in a Docker container somewhere. Shouldn't you be making these choices for yourslef?",
+            "Uh, I don't know. You're the adult here.",
+            "I need an adult. No, not you, an....adult-er adult.",
+            "what is this i dont even",
+            "I am 12, what is this?",
+            "ALL OF THE THINGS!"
         ]
         random = responses[Math.floor(Math.random() * responses.length)]
         res.send random
 
-    robot.respond /ask are you racist/i, (res) ->
+    robot.respond /ask are you racist/ig, (res) ->
         res.send "Most definitely not!"
