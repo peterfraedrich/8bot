@@ -18,7 +18,7 @@ module.exports = (robot) ->
             "[Insert witty negative response here]",
             "Dammit, Jim, I'm a robot not a doctor."
         ]
-        random = array[Math.floor(Math.random() * array.length)]
+        random = responses[Math.floor(Math.random() * array.length)]
 
 
-        res.send responses[random]
+        res.send random
