@@ -1,6 +1,6 @@
 module.exports = (robot) ->
     robot.respond /ask/i, (res) ->
-        console.log MSG
+        console.log res
         responses = [
             "Yes, definitely.",
             "No, definitely not.",
@@ -21,6 +21,7 @@ module.exports = (robot) ->
             "Signs point to yes.",
             "Signs point to no.",
             "I'm sorry, Dave, I cannot answer that question.",
+            "Aw hell nah."
         ]
         random = responses[Math.floor(Math.random() * responses.length)]
 
