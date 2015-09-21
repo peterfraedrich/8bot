@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "peter.fraedrich@hexapp.net",
-  "description": "8ball",
+  "description": "magic 8ball",
   "dependencies": {
     "hubot": "^2.16.0",
     "hubot-diagnostics": "0.0.1",
