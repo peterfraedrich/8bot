@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-    robot.respond /ask/i, (res) ->
+    robot.respond /.+/i, (res) ->
         responses = [
             "Yes, definitely.",
             "No, definitely not.",
@@ -41,5 +41,5 @@ module.exports = (robot) ->
         random = responses[Math.floor(Math.random() * responses.length)]
         res.send random
 
-    robot.respond /ask are you racist/ig, (res) ->
+    robot.respond /are you racist/ig, (res) ->
         res.send "Most definitely not!"
