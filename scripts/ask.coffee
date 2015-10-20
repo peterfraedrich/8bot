@@ -3,7 +3,7 @@ module.exports = (robot) ->
         responses = [
             "Yes, definitely.",
             "No, definitely not.",
-            "no...wait...stop...",
+            "no...wait...stop...come back...",
             "How about no.",
             "How about go f##k yourself",
             "Maybe? Idk I'm a bot, I don't give a damn.",
@@ -36,10 +36,19 @@ module.exports = (robot) ->
             "I am 12, what is this?",
             "ALL OF THE THINGS!",
             "U wot m8? I swear on me mum!",
-            "Piss afffff."
+            "Piss afffff.",
+            "I've got a lovely bunch of coconuts...",
+            "Would you like to ride in my beautiful balloon?",
+            "/giphy bill clinton",
+            "I'm going to kill all humans, and I'm starting with this @channel"
         ]
-        random = responses[Math.floor(Math.random() * responses.length)]
+	random = responses[Math.floor(Math.random() * responses.length)]
         res.send random
 
     robot.respond /are you racist/ig, (res) ->
         res.send "Most definitely not!"
+
+    robot.respond /are you a racist/ig, (res) ->
+        res.send "No, I don't think so..."
+
+
